@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Dec 13 14:09:34 2023
+# Process ID: 17372
+# Current directory: C:/Users/maria/Desktop/calcolatrice_prova_divisione/main_calcolatrice.runs/synth_1
+# Command line: vivado.exe -log main_calcolatrice.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_calcolatrice.tcl
+# Log file: C:/Users/maria/Desktop/calcolatrice_prova_divisione/main_calcolatrice.runs/synth_1/main_calcolatrice.vds
+# Journal file: C:/Users/maria/Desktop/calcolatrice_prova_divisione/main_calcolatrice.runs/synth_1\vivado.jou
+# Running On: Maria, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14702 MB
+#-----------------------------------------------------------
+source main_calcolatrice.tcl -notrace

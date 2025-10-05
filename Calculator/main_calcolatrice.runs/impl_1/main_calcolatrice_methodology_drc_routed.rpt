@@ -1,0 +1,747 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Dec 13 14:14:04 2023
+| Host         : Maria running 64-bit major release  (build 9200)
+| Command      : report_methodology -file main_calcolatrice_methodology_drc_routed.rpt -pb main_calcolatrice_methodology_drc_routed.pb -rpx main_calcolatrice_methodology_drc_routed.rpx
+| Design       : main_calcolatrice
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 142
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay  | 28         |
+| TIMING-20 | Warning  | Non-clocked latch              | 113        |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on swt_eq relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[0] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[1] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[2] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[3] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[4] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[5] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[6] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[7] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[8] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on swt_num[9] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on swt_op[0] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on swt_op[1] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on swt_op[2] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on swt_op[3] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on dot relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on out_an[0] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on out_an[1] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on out_an[2] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on out_an[3] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on out_code[0] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on out_code[1] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on out_code[2] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on out_code[3] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on out_code[4] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on out_code[5] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on out_code[6] relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch demux1/add_reg[0] cannot be properly analyzed as its control pin demux1/add_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch demux1/add_reg[10] cannot be properly analyzed as its control pin demux1/add_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch demux1/add_reg[11] cannot be properly analyzed as its control pin demux1/add_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch demux1/add_reg[12] cannot be properly analyzed as its control pin demux1/add_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch demux1/add_reg[13] cannot be properly analyzed as its control pin demux1/add_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch demux1/add_reg[1] cannot be properly analyzed as its control pin demux1/add_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch demux1/add_reg[2] cannot be properly analyzed as its control pin demux1/add_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch demux1/add_reg[3] cannot be properly analyzed as its control pin demux1/add_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch demux1/add_reg[4] cannot be properly analyzed as its control pin demux1/add_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch demux1/add_reg[5] cannot be properly analyzed as its control pin demux1/add_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch demux1/add_reg[6] cannot be properly analyzed as its control pin demux1/add_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch demux1/add_reg[7] cannot be properly analyzed as its control pin demux1/add_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch demux1/add_reg[8] cannot be properly analyzed as its control pin demux1/add_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch demux1/add_reg[9] cannot be properly analyzed as its control pin demux1/add_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[0] cannot be properly analyzed as its control pin demux1/dif_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[10] cannot be properly analyzed as its control pin demux1/dif_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[11] cannot be properly analyzed as its control pin demux1/dif_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[12] cannot be properly analyzed as its control pin demux1/dif_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[13] cannot be properly analyzed as its control pin demux1/dif_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[1] cannot be properly analyzed as its control pin demux1/dif_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[2] cannot be properly analyzed as its control pin demux1/dif_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[3] cannot be properly analyzed as its control pin demux1/dif_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[4] cannot be properly analyzed as its control pin demux1/dif_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[5] cannot be properly analyzed as its control pin demux1/dif_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[6] cannot be properly analyzed as its control pin demux1/dif_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[7] cannot be properly analyzed as its control pin demux1/dif_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[8] cannot be properly analyzed as its control pin demux1/dif_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch demux1/dif_reg[9] cannot be properly analyzed as its control pin demux1/dif_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch demux1/div_reg[0] cannot be properly analyzed as its control pin demux1/div_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch demux1/div_reg[10] cannot be properly analyzed as its control pin demux1/div_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch demux1/div_reg[11] cannot be properly analyzed as its control pin demux1/div_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch demux1/div_reg[12] cannot be properly analyzed as its control pin demux1/div_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch demux1/div_reg[13] cannot be properly analyzed as its control pin demux1/div_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch demux1/div_reg[1] cannot be properly analyzed as its control pin demux1/div_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch demux1/div_reg[2] cannot be properly analyzed as its control pin demux1/div_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch demux1/div_reg[3] cannot be properly analyzed as its control pin demux1/div_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch demux1/div_reg[4] cannot be properly analyzed as its control pin demux1/div_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch demux1/div_reg[5] cannot be properly analyzed as its control pin demux1/div_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch demux1/div_reg[6] cannot be properly analyzed as its control pin demux1/div_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch demux1/div_reg[7] cannot be properly analyzed as its control pin demux1/div_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch demux1/div_reg[8] cannot be properly analyzed as its control pin demux1/div_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch demux1/div_reg[9] cannot be properly analyzed as its control pin demux1/div_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[0] cannot be properly analyzed as its control pin demux1/mul_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[10] cannot be properly analyzed as its control pin demux1/mul_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[11] cannot be properly analyzed as its control pin demux1/mul_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[12] cannot be properly analyzed as its control pin demux1/mul_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[13] cannot be properly analyzed as its control pin demux1/mul_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[1] cannot be properly analyzed as its control pin demux1/mul_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[2] cannot be properly analyzed as its control pin demux1/mul_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[3] cannot be properly analyzed as its control pin demux1/mul_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[4] cannot be properly analyzed as its control pin demux1/mul_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[5] cannot be properly analyzed as its control pin demux1/mul_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[6] cannot be properly analyzed as its control pin demux1/mul_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[7] cannot be properly analyzed as its control pin demux1/mul_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[8] cannot be properly analyzed as its control pin demux1/mul_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch demux1/mul_reg[9] cannot be properly analyzed as its control pin demux1/mul_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch demux2/add_reg[0] cannot be properly analyzed as its control pin demux2/add_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch demux2/add_reg[10] cannot be properly analyzed as its control pin demux2/add_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch demux2/add_reg[11] cannot be properly analyzed as its control pin demux2/add_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch demux2/add_reg[12] cannot be properly analyzed as its control pin demux2/add_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch demux2/add_reg[13] cannot be properly analyzed as its control pin demux2/add_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch demux2/add_reg[1] cannot be properly analyzed as its control pin demux2/add_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch demux2/add_reg[2] cannot be properly analyzed as its control pin demux2/add_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch demux2/add_reg[3] cannot be properly analyzed as its control pin demux2/add_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch demux2/add_reg[4] cannot be properly analyzed as its control pin demux2/add_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch demux2/add_reg[5] cannot be properly analyzed as its control pin demux2/add_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch demux2/add_reg[6] cannot be properly analyzed as its control pin demux2/add_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch demux2/add_reg[7] cannot be properly analyzed as its control pin demux2/add_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch demux2/add_reg[8] cannot be properly analyzed as its control pin demux2/add_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch demux2/add_reg[9] cannot be properly analyzed as its control pin demux2/add_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[0] cannot be properly analyzed as its control pin demux2/dif_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[10] cannot be properly analyzed as its control pin demux2/dif_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[11] cannot be properly analyzed as its control pin demux2/dif_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[12] cannot be properly analyzed as its control pin demux2/dif_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[13] cannot be properly analyzed as its control pin demux2/dif_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[1] cannot be properly analyzed as its control pin demux2/dif_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[2] cannot be properly analyzed as its control pin demux2/dif_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[3] cannot be properly analyzed as its control pin demux2/dif_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[4] cannot be properly analyzed as its control pin demux2/dif_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[5] cannot be properly analyzed as its control pin demux2/dif_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[6] cannot be properly analyzed as its control pin demux2/dif_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[7] cannot be properly analyzed as its control pin demux2/dif_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[8] cannot be properly analyzed as its control pin demux2/dif_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch demux2/dif_reg[9] cannot be properly analyzed as its control pin demux2/dif_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch demux2/div_reg[0] cannot be properly analyzed as its control pin demux2/div_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch demux2/div_reg[10] cannot be properly analyzed as its control pin demux2/div_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch demux2/div_reg[11] cannot be properly analyzed as its control pin demux2/div_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch demux2/div_reg[12] cannot be properly analyzed as its control pin demux2/div_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch demux2/div_reg[13] cannot be properly analyzed as its control pin demux2/div_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch demux2/div_reg[1] cannot be properly analyzed as its control pin demux2/div_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch demux2/div_reg[2] cannot be properly analyzed as its control pin demux2/div_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch demux2/div_reg[3] cannot be properly analyzed as its control pin demux2/div_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch demux2/div_reg[4] cannot be properly analyzed as its control pin demux2/div_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch demux2/div_reg[5] cannot be properly analyzed as its control pin demux2/div_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch demux2/div_reg[6] cannot be properly analyzed as its control pin demux2/div_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch demux2/div_reg[7] cannot be properly analyzed as its control pin demux2/div_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch demux2/div_reg[8] cannot be properly analyzed as its control pin demux2/div_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch demux2/div_reg[9] cannot be properly analyzed as its control pin demux2/div_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[0] cannot be properly analyzed as its control pin demux2/mul_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[10] cannot be properly analyzed as its control pin demux2/mul_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[11] cannot be properly analyzed as its control pin demux2/mul_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[12] cannot be properly analyzed as its control pin demux2/mul_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[13] cannot be properly analyzed as its control pin demux2/mul_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#104 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[1] cannot be properly analyzed as its control pin demux2/mul_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#105 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[2] cannot be properly analyzed as its control pin demux2/mul_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#106 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[3] cannot be properly analyzed as its control pin demux2/mul_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#107 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[4] cannot be properly analyzed as its control pin demux2/mul_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#108 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[5] cannot be properly analyzed as its control pin demux2/mul_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#109 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[6] cannot be properly analyzed as its control pin demux2/mul_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#110 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[7] cannot be properly analyzed as its control pin demux2/mul_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#111 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[8] cannot be properly analyzed as its control pin demux2/mul_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#112 Warning
+Non-clocked latch  
+The latch demux2/mul_reg[9] cannot be properly analyzed as its control pin demux2/mul_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#113 Warning
+Non-clocked latch  
+The latch input_keyboard/en_reg cannot be properly analyzed as its control pin input_keyboard/en_reg/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 113 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

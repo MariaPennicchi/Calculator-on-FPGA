@@ -1,0 +1,92 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Dec 13 14:13:15 2023
+| Host         : Maria running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_calcolatrice_control_sets_placed.rpt
+| Design       : main_calcolatrice
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    50 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             128 |           54 |
+| No           | No                    | Yes                    |              40 |           10 |
+| No           | Yes                   | No                     |              22 |           11 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              80 |           21 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------------+--------------------------------+-------------------------+------------------+----------------+--------------+
+|                    Clock Signal                   |          Enable Signal         |     Set/Reset Signal    | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------------------------------+--------------------------------+-------------------------+------------------+----------------+--------------+
+|  en_reg_i_1_n_2                                   |                                | reset_IBUF              |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                                    | input_keyboard/ri/p_0_in[12]   | reset_IBUF              |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                                    | input_keyboard/ri/p_0_in[8]    | reset_IBUF              |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                                    | input_keyboard/ri/p_0_in[4]    | reset_IBUF              |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                                    | input_keyboard/ri/p_0_in[0]    | reset_IBUF              |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                                    |                                |                         |               12 |             16 |         1.33 |
+|  clk_IBUF_BUFG                                    |                                | input_keyboard/ri/reset |                5 |             20 |         4.00 |
+|  n_0_7554_BUFG                                    |                                |                         |               14 |             28 |         2.00 |
+|  n_1_7556_BUFG                                    |                                |                         |               10 |             28 |         2.80 |
+|  input_keyboard/ri/E[0]                           |                                |                         |                9 |             28 |         3.11 |
+|  input_keyboard/ri/read.temp_operator_reg[0]_0[0] |                                |                         |                9 |             28 |         3.11 |
+|  clk_IBUF_BUFG                                    | input_keyboard/ri/temp_index10 | reset_IBUF              |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                                    | input_keyboard/ri/temp_index20 | reset_IBUF              |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                                    |                                | reset_IBUF              |               15 |             41 |         2.73 |
++---------------------------------------------------+--------------------------------+-------------------------+------------------+----------------+--------------+
+
+
